@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "compile": "tsc && node dist/index.js",
+    "compile": "tsc && node dist/app.js",
     "dev": "nodemon --watch src/ --exec \"npm run compile\" --verbose -e ts",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "prettier-format": "prettier --write \"**/*.ts\"",

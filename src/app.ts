@@ -1,1 +1,5 @@
-export const giveMeFood = () => 'Gravy Peas';
+function giveMeFood(): string {
+  return 'Gravy Peas';
+}
+
+export { giveMeFood };
