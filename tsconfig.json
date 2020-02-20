@@ -6,6 +6,7 @@
       "rootDir": "src",
       "forceConsistentCasingInFileNames": true,
       "noImplicitReturns": true,
-      "strict": true
+      "strict": true,
+      "sourceMap": true
   }
 }
